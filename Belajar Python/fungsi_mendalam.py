@@ -24,6 +24,5 @@ def tambah_list(result, daftar=list()):
     daftar.append("Belajar BeautifulSoup4")
     return
 
-tambah = list()
-tambah_list(tambah)
+
 
