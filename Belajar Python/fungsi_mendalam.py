@@ -16,13 +16,14 @@ def list():
     daftar = ["Hanbook jaringan", "belajar django", "fundemental python"]
     for i in range(0, len(daftar)):
         print(daftar[i])
-    return
+    return print(daftar[i])
 
-list()
+def tambah_list(result):
+    tambah =_.append("Belajar BeautifulSoup4")
+    return tambah
 
-def tambah_list(result, daftar=list()):
-    daftar.append("Belajar BeautifulSoup4")
-    return
+mylist = list()
+tambah_list(mylist)
 
 
 
