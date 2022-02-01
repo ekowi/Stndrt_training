@@ -1,7 +1,3 @@
-from numpy import random
+nilai = 3 ** 2
 
-algebra = random.randn(8,5)
-for lis in range (8):
-    algebra[lis] = lis
-
-print(algebra)
+print(nilai)
